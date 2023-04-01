@@ -5,7 +5,13 @@ export default class MyDocument extends Document {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   static async getInitialProps(ctx: DocumentContext): Promise<any> {
     const sheet = new ServerStyleSheet();
-    ctx.renderPage((App) => (props) => sheet.collectStyles(<App {...props} />));
+
+    ctx.renderPage((_App) => (props) => {
+      const App = _App as React.FC;
+
+      return sheet.collectStyles(<App {...props} />);
+    });
+
     const styleTags = sheet.getStyleElement();
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps, styleTags };

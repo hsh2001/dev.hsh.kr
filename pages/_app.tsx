@@ -5,7 +5,7 @@ import { SWRConfig } from 'swr';
 
 class MyApp extends App {
   render() {
-    const { Component, pageProps } = this.props;
+    const Component = this.props.Component as React.FC;
 
     return (
       <SWRConfig
@@ -16,7 +16,7 @@ class MyApp extends App {
         }}
       >
         <RecoilRoot>
-          <Component {...pageProps} />
+          <Component {...this.props.pageProps} />
         </RecoilRoot>
       </SWRConfig>
     );
