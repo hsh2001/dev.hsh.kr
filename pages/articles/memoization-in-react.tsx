@@ -40,8 +40,37 @@ const Page: NextPage = () => {
           DOM)에 이 변화를 적용시키는 방식입니다. 실제DOM을 자주 변경하는 것은
           컴퓨터 자원을 가상DOM을 변경하는 것보다 더 많이 소모합니다. 그래서
           리액트는 가상DOM이라는 개념을 사용하여 실제DOM의 변경을 최소화하여
-          성능을 최적화하는 방식을 채택한 것입니다.
+          성능을 최적화하는 방식을 채택한 것입니다. 근데, 리액트는 어떠한
+          기준으로 가상DOM이 변경됐는지 판단할까요? 이때 <b>얕은 비교</b>를
+          사용하기 때문에 우리는 리액트로 프로그램을 작성할 때 이점을 주의해야
+          합니다.
         </Paragraph>
+
+        <SubTitle>얕은 비교와 깊은 비교</SubTitle>
+
+        <Paragraph>
+          다음의 코드를 실행하면 콘솔에는 어떤 것이 출력될까요?
+        </Paragraph>
+
+        <code className="block">{'console.log(1 === 1)'}</code>
+
+        <Paragraph>
+          <code>true</code>입니다! 그렇다면 다음의 코드는 무엇을 출력할까요?
+        </Paragraph>
+
+        <code className="block">{'console.log({} === {})'}</code>
+
+        <Paragraph>
+          <code>false</code>입니다! 혹시... 당황하셨나요? 놀랍게도 다음의
+          코드들도 모두 <code>false</code>를 출력합니다.
+        </Paragraph>
+
+        <code className="block">{'console.log([] === [])'}</code>
+        <code className="block">
+          {'console.log((function (){}) === (function (){}))'}
+        </code>
+
+        <Paragraph></Paragraph>
       </Container>
     </Layout>
   );

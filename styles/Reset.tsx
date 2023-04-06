@@ -22,4 +22,16 @@ a {
   color: skyblue !important;
   text-decoration: none;
 }
+
+code {
+  background-color: #333;
+  color: #fff;
+  padding: 0 .5rem;
+  border-radius: .5rem;
+
+  &.block {
+    display: block;
+    padding: 16px;
+  }
+}
 `;
