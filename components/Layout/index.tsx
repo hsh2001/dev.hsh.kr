@@ -1,9 +1,8 @@
 import Head from 'next/head';
 
-import Reset from '../styles/Reset';
-
-import Footer from './Footer';
-import Header from './Header';
+import Reset from '../../styles/Reset';
+import Footer from '../Footer';
+import Header from '../Header';
 
 const Layout: React.FC = ({ children }) => {
   return (

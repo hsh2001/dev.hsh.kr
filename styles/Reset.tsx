@@ -17,4 +17,9 @@ iframe {
   width: 100%;
   display: block;
 }
+
+a {
+  color: skyblue !important;
+  text-decoration: none;
+}
 `;
