@@ -15,6 +15,8 @@ const Page: NextPage = () => {
   return (
     <Layout>
       <Title center gradient>
+숨참고
+<br />
         DEV
         <br />
         DIVE
