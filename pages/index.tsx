@@ -36,7 +36,11 @@ const Page: NextPage = () => {
   return (
     <Layout>
       <Title center gradient>
-        DEV DIVE
+        숨참고
+        <br />
+        DEV
+        <br />
+        DIVE
       </Title>
 
       <Cards>
