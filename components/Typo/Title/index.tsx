@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 import { generateCenterOptionalCss } from './generateCenterOptionalCss';
 
 const titleCss = css`
-  font-size: 86px;
+  font-size: 42px;
   font-weight: 800;
 `;
 
@@ -24,9 +24,20 @@ export const Title = styled.h1<{
       : ''}
 `;
 
-export const SubTitle = styled.h2`
+export const SubTitle = styled.h2<{
+  coloredBackground?: boolean;
+  center?: boolean;
+}>`
   ${generateCenterOptionalCss()};
   ${titleCss};
+
+  ${({ coloredBackground }) =>
+    coloredBackground
+      ? css`
+          background-color: #ffffeb;
+          padding: 8px;
+        `
+      : ``}
 
   font-size: 32px;
 `;

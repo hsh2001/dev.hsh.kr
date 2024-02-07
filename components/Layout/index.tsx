@@ -13,10 +13,9 @@ const Layout: React.FC = ({ children }) => {
       </Head>
 
       <Reset />
-
-      <Header />
+ 
       <main>{children}</main>
-      <Footer />
+ 
     </>
   );
 };
