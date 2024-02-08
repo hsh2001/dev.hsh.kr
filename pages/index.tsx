@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 
 import Layout from '../components/Layout';
 import { HashtagText } from '../components/Typo/Hashtag';
+import { ShadowImage } from '../components/Typo/Images/ShadowImage';
 import { Paragraph } from '../components/Typo/Paragraph';
 import { SubTitle, Title } from '../components/Typo/Title';
 import { TypoContainer } from '../components/Typo/TypoContainer';
@@ -27,22 +28,38 @@ const HashtagContainer = styled.div<{
   }
 `;
 
+const IntroSection = styled.div`
+  background-image: url(/images/me.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+  > .wrapper {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 30vh 0;
+  }
+`;
+
 const Page: NextPage = () => {
   return (
     <Layout>
-      <Title center>🐙 황승현</Title>
+      <IntroSection>
+        <div className="wrapper">
+          <Title center>🐙 황승현</Title>
 
-      <TypoContainer>
-        <HashtagContainer center>
-          <HashtagText>#백엔드 개발자</HashtagText>
-          <HashtagText>#풀스택 개발자</HashtagText>
-          <HashtagText>#인프라 엔지니어</HashtagText>
-          <HashtagText>#DEVOPS 엔지니어</HashtagText>
-          <HashtagText>#CI/CD 엔지니어</HashtagText>
-        </HashtagContainer>
-      </TypoContainer>
+          <TypoContainer>
+            <HashtagContainer center>
+              <HashtagText>#백엔드 개발자</HashtagText>
+              <HashtagText>#풀스택 개발자</HashtagText>
+              <HashtagText>#인프라 엔지니어</HashtagText>
+              <HashtagText>#DEVOPS 엔지니어</HashtagText>
+              <HashtagText>#CI/CD 엔지니어</HashtagText>
+            </HashtagContainer>
+          </TypoContainer>
 
-      <Paragraph center>무엇이든 해내는 실행력 좋은 개발자.</Paragraph>
+          <Paragraph center>무엇이든 해내는 실행력 좋은 개발자.</Paragraph>
+        </div>
+      </IntroSection>
 
       <SubTitle center coloredBackground>
         기술 스택
@@ -176,6 +193,7 @@ const Page: NextPage = () => {
 
       <TypoContainer>
         <SubTitle>Cultural Atlas</SubTitle>
+        <ShadowImage src="/images/echoblog.jpg" alt="" />
         <HashtagContainer>
           <HashtagText>#웹_크롤링</HashtagText>
           <HashtagText>#데이터_처리</HashtagText>
@@ -188,9 +206,15 @@ const Page: NextPage = () => {
           전처리를 담당했습니다. Perl로 작성된 레거시 코드를 NodeJS 코드로
           리팩토링하여 유지보수에 용이하게 하였습니다. 이후 Stripe 와의 연동을
           구현하며 수익화를 유도했습니다.
+          <br />
+          <br />
+          <a href="https://cultureatlas.app" target="_blank">
+            https://cultureatlas.app
+          </a>
         </Paragraph>
 
         <SubTitle>EchoBlog</SubTitle>
+        <ShadowImage src="/images/echoblog.jpg" alt="" />
         <HashtagContainer>
           <HashtagText>#토스_페이먼츠_결제_연동</HashtagText>
           <HashtagText>#CS팀과의_협업</HashtagText>
@@ -200,17 +224,36 @@ const Page: NextPage = () => {
           수익화를 위해 토스 페이먼츠의 연동을 구현하며 수익화에 성공했습니다.
           CS팀과의 협업을 위해 관리자 페이지를 꾸준히 개선하고 운영하며 안정적인
           운영을 도왔습니다.
+          <br />
+          <br />
+          <a href="https://echoblog.net" target="_blank">
+            https://echoblog.net/
+          </a>
         </Paragraph>
 
         <SubTitle>MARS</SubTitle>
+        <ShadowImage src="/images/nft.jpg" alt="" />
         <Paragraph>
           음악을 NFT화하는 서비스임. Solidity를 사용하여 Smart Contract를
           작성하고 배포함. IPFS에 음원을 올리고 NodeJS로 NFT를 민트했음.
           OpenSea에도 올리고 거래 수수료 정책을 이용하여 수익화를 시도함.
+          <br />
+          <br />
+          <a href="https://mars.club/" target="_blank">
+            https://mars.club/ (현재 서비스 종료)
+          </a>
         </Paragraph>
 
         <SubTitle>Mathpang</SubTitle>
-        <Paragraph>수학 교육을 게임으로 아이에게 시키는 서비스임.</Paragraph>
+        <ShadowImage src="/images/nft.jpg" alt="" />
+        <Paragraph>
+          수학 교육을 게임으로 아이에게 시키는 서비스임.
+          <br />
+          <br />
+          <a href="https://mathpang.com" target="_blank">
+            https://mathpang.com
+          </a>
+        </Paragraph>
       </TypoContainer>
 
       <SubTitle center coloredBackground>
