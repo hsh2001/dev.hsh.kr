@@ -117,8 +117,7 @@ const Page: NextPage = () => {
         </HashtagContainer>
         <Paragraph>
           빠른 읽기 쓰기 성능을 활용하여 쿼리 또는 메소드의 결과값을 캐싱하는
-          것으로 웹 애플리케이션의 응답 속도를 획기적으로 줄일 수 있습니다. INCR
-          을 사용하여 동시성 제어에도 활용할 수 있습니다.
+          것으로 웹 애플리케이션의 응답 속도를 획기적으로 줄일 수 있습니다.  
         </Paragraph>
         <SubTitle>CI/CD</SubTitle>
         <HashtagContainer>
