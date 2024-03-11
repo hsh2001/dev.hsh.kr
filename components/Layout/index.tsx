@@ -9,7 +9,7 @@ const Layout: React.FC<PropsWithChildren<unknown>> = ({
   return (
     <>
       <Head>
-        <title>Hello NEXT!</title>
+        <title>개발자 황승현</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
