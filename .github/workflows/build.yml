@@ -7,10 +7,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Init node env
-        uses: actions/setup-node@v1
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: '20'
+          cache: ${{ steps.detect-package-manager.outputs.manager }}
       - run: npm install -g pnpm
       - run: pnpm install
       - run: pnpm build
