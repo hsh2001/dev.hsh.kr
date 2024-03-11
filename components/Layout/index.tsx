@@ -1,10 +1,11 @@
 import Head from 'next/head';
+import { PropsWithChildren } from 'react';
 
 import Reset from '../../styles/Reset';
-import Footer from '../Footer';
-import Header from '../Header';
 
-const Layout: React.FC = ({ children }) => {
+const Layout: React.FC<PropsWithChildren<unknown>> = ({
+  children,
+}: PropsWithChildren<unknown>) => {
   return (
     <>
       <Head>
@@ -14,9 +15,7 @@ const Layout: React.FC = ({ children }) => {
 
       <Reset />
 
-      <Header />
       <main>{children}</main>
-      <Footer />
     </>
   );
 };
