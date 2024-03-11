@@ -29,14 +29,13 @@ const HashtagContainer = styled.div<{
 `;
 
 const IntroSection = styled.div`
-  background-image: url(/images/me.jpg);
-  background-position: center;
-  background-size: cover;
-  color: white;
-
-  > .wrapper {
-    background: rgba(0, 0, 0, 0.85);
-    padding: 30vh 0;
+  > .myPic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
   }
 `;
 
@@ -44,21 +43,21 @@ const Page: NextPage = () => {
   return (
     <Layout>
       <IntroSection>
-        <div className="wrapper">
-          <Title center>🐙 황승현</Title>
+        <img className="myPic" src="/images/me.jpg" alt="" />
 
-          <TypoContainer>
-            <HashtagContainer center>
-              <HashtagText>#백엔드 개발자</HashtagText>
-              <HashtagText>#풀스택 개발자</HashtagText>
-              <HashtagText>#인프라 엔지니어</HashtagText>
-              <HashtagText>#DEVOPS 엔지니어</HashtagText>
-              <HashtagText>#CI/CD 엔지니어</HashtagText>
-            </HashtagContainer>
-          </TypoContainer>
+        <Title center>🐙 황승현</Title>
 
-          <Paragraph center>무엇이든 해내는 실행력 좋은 개발자.</Paragraph>
-        </div>
+        <TypoContainer>
+          <HashtagContainer center>
+            <HashtagText>#백엔드 개발자</HashtagText>
+            <HashtagText>#풀스택 개발자</HashtagText>
+            <HashtagText>#인프라 엔지니어</HashtagText>
+            <HashtagText>#DEVOPS 엔지니어</HashtagText>
+            <HashtagText>#CI/CD 엔지니어</HashtagText>
+          </HashtagContainer>
+        </TypoContainer>
+
+        <Paragraph center>무엇이든 해내는 실행력 좋은 개발자.</Paragraph>
       </IntroSection>
 
       <SubTitle center coloredBackground>
@@ -111,13 +110,12 @@ const Page: NextPage = () => {
         </Paragraph>
         <SubTitle>Redis</SubTitle>
         <HashtagContainer>
-          <HashtagText>#트랜잭션</HashtagText>
-          <HashtagText>#인덱싱</HashtagText>
-          <HashtagText>#구조화</HashtagText>
+          <HashtagText>#캐싱</HashtagText>
+          <HashtagText>#PUB/SUB</HashtagText>
         </HashtagContainer>
         <Paragraph>
           빠른 읽기 쓰기 성능을 활용하여 쿼리 또는 메소드의 결과값을 캐싱하는
-          것으로 웹 애플리케이션의 응답 속도를 획기적으로 줄일 수 있습니다.  
+          것으로 웹 애플리케이션의 응답 속도를 획기적으로 줄일 수 있습니다.
         </Paragraph>
         <SubTitle>CI/CD</SubTitle>
         <HashtagContainer>
@@ -192,7 +190,7 @@ const Page: NextPage = () => {
 
       <TypoContainer>
         <SubTitle>Cultural Atlas</SubTitle>
-        <ShadowImage src="/images/echoblog.jpg" alt="" />
+        <ShadowImage src="/images/cri.png" alt="" />
         <HashtagContainer>
           <HashtagText>#웹_크롤링</HashtagText>
           <HashtagText>#데이터_처리</HashtagText>
@@ -232,10 +230,17 @@ const Page: NextPage = () => {
 
         <SubTitle>MARS</SubTitle>
         <ShadowImage src="/images/nft.jpg" alt="" />
+        <HashtagContainer>
+          <HashtagText>#WEB3</HashtagText>
+          <HashtagText>#NFT</HashtagText>
+          <HashtagText>#IPFS</HashtagText>
+          <HashtagText>#Solidity</HashtagText>
+        </HashtagContainer>
         <Paragraph>
-          음악을 NFT화하는 서비스임. Solidity를 사용하여 Smart Contract를
-          작성하고 배포함. IPFS에 음원을 올리고 NodeJS로 NFT를 민트했음.
-          OpenSea에도 올리고 거래 수수료 정책을 이용하여 수익화를 시도함.
+          음악을 NFT화하는 서비스입니다. Solidity를 사용하여 Smart Contract를
+          작성하고 배포하였습니다. IPFS에 음원을 올리고 NodeJS로 NFT를
+          민트했습니다. OpenSea에도 올리고 거래 수수료 정책을 이용하여 수익화를
+          시도하였습니다.
           <br />
           <br />
           <a href="https://mars.club/" target="_blank">
@@ -244,9 +249,10 @@ const Page: NextPage = () => {
         </Paragraph>
 
         <SubTitle>Mathpang</SubTitle>
-        <ShadowImage src="/images/nft.jpg" alt="" />
+        <ShadowImage src="/images/mathpang/main.png" alt="" />
         <Paragraph>
-          수학 교육을 게임으로 아이에게 시키는 서비스임.
+          수학 교육의 게이미피케이션 서비스입니다. NestJS로 작성된 서버를
+          작성하고 AWS 인프라를 유지보수하였습니다.
           <br />
           <br />
           <a href="https://mathpang.com" target="_blank">

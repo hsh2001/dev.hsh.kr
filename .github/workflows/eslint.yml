@@ -10,8 +10,9 @@ jobs:
       - name: Init node env
         uses: actions/setup-node@v1
         with:
-          node-version: 14.x
-      - run: yarn 
-      - run: yarn lint
+          node-version: 16.x
+      - run: npm install -g pnpm 
+      - run: pnpm install 
+      - run: pnpm lint
         env:
           CI: true
