@@ -60,6 +60,59 @@ const Page: NextPage = () => {
         <Paragraph center>무엇이든 해내는 실행력 좋은 개발자.</Paragraph>
       </IntroSection>
 
+
+      <SubTitle center coloredBackground>
+        경력
+      </SubTitle>
+
+      <TypoContainer>
+        <SubTitle>Cultural Resources LLC</SubTitle>
+        <Paragraph>
+          <b>
+            2019년 7월 ~ 2021년 2월 (1년 8개월) / 캘리포니아, 미국 / 프리랜서
+          </b>
+        </Paragraph>
+        <Paragraph>
+          미국 캘리포니아에 위치한 Cultural Atlas를 개발하고 서비스하는 업체로,
+          2019년 7월부터 2021년 2월까지 프리랜서로 근무하였습니다. 약 1년간
+          크롤러 및 전처리 프로그램을 개발하며 웹앱에 사용될 데이터를
+          수집했습니다. 이후 UI 개발과 Stripe를 통한 결제 서비스 도입으로
+          수익화에 성공했습니다.
+        </Paragraph>
+
+        <SubTitle>에코앤컴퍼니 (Mark87)</SubTitle>
+        <Paragraph>
+          <b>
+            2021년 4월 ~ 2022년 4월 (1년) / 서울, 한국 / 풀스택 개발자
+          </b>
+        </Paragraph>
+        <Paragraph>
+          서울시 강서구에 위치한 마케팅 업체로 인플루언서 마케팅 플랫폼
+          에코블로그를 개발하고 서비스합니다. 추후 IT 사업 확장을 위해 자회사
+          법인 Mark87을 설립하며 편입하였습니다. 2021년 4월부터 2022년 4월까지
+          근무하였습니다. 무료 서비스였던 에코블로그에 토스 페이먼츠와의
+          연동으로 수익 모델의 기능을 구현하여 수익화에 성공했습니다. 이후 음원
+          NFT 서비스 MARS를 개발하며 NFT와 블록체인에 대한 지식을 얻을 수
+          있었습니다.
+        </Paragraph>
+
+        <SubTitle>Mathpang</SubTitle>
+        <Paragraph>
+          <b>
+            2022년 5월 ~ 2024년 1월 (1년 8개월) / 서울, 한국 / 백엔드 개발자
+          </b>
+        </Paragraph>
+        <Paragraph>
+          서울시 관악구에 위치한 수학 교육 서비스 Mathpang을 개발하고 서비스하는
+          업체로, 2022년 5월부터 2024년 1월까지 근무하였습니다. 기존 배포
+          스크립트의 불안정성으로 인해 백엔드 서비스를 배포할 때마다 서비스가
+          일시적으로 마비되던 문제가 있었는데, 이를 블루 그린 배포 전략을
+          채택하고 구현하는 것으로 해결하였습니다. 멀티 유저 서비스에 필요한
+          실시간 채팅 서비스를 구현하며 게임 사용자끼리 소통 하고 하나의
+          커뮤니티를 형성하도록 했습니다.
+        </Paragraph>
+      </TypoContainer>
+
       <SubTitle center coloredBackground>
         기술 스택
       </SubTitle>
@@ -261,42 +314,6 @@ const Page: NextPage = () => {
         </Paragraph>
       </TypoContainer>
 
-      <SubTitle center coloredBackground>
-        경력
-      </SubTitle>
-
-      <TypoContainer>
-        <SubTitle>Cultural Resources LLC</SubTitle>
-        <Paragraph>
-          미국 캘리포니아에 위치한 Cultural Atlas를 개발하고 서비스하는 업체로,
-          2019년 7월부터 2021년 2월까지 프리랜서로 근무하였습니다. 약 1년간
-          크롤러 및 전처리 프로그램을 개발하며 웹앱에 사용될 데이터를
-          수집했습니다. 이후 UI 개발과 Stripe를 통한 결제 서비스 도입으로
-          수익화에 성공했습니다.
-        </Paragraph>
-
-        <SubTitle>에코앤컴퍼니 (Mark87)</SubTitle>
-        <Paragraph>
-          서울시 강서구에 위치한 마케팅 업체로 인플루언서 마케팅 플랫폼
-          에코블로그를 개발하고 서비스합니다. 추후 IT 사업 확장을 위해 자회사
-          법인 Mark87을 설립하며 편입하였습니다. 2021년 4월부터 2022년 4월까지
-          근무하였습니다. 무료 서비스였던 에코블로그에 토스 페이먼츠와의
-          연동으로 수익 모델의 기능을 구현하여 수익화에 성공했습니다. 이후 음원
-          NFT 서비스 MARS를 개발하며 NFT와 블록체인에 대한 지식을 얻을 수
-          있었습니다.
-        </Paragraph>
-
-        <SubTitle>Mathpang</SubTitle>
-        <Paragraph>
-          서울시 관악구에 위치한 수학 교육 서비스 Mathpang을 개발하고 서비스하는
-          업체로, 2022년 5월부터 2024년 1월까지 근무하였습니다. 기존 배포
-          스크립트의 불안정성으로 인해 백엔드 서비스를 배포할 때마다 서비스가
-          일시적으로 마비되던 문제가 있었는데, 이를 블루 그린 배포 전략을
-          채택하고 구현하는 것으로 해결하였습니다. 멀티 유저 서비스에 필요한
-          실시간 채팅 서비스를 구현하며 게임 사용자끼리 소통 하고 하나의
-          커뮤니티를 형성하도록 했습니다.
-        </Paragraph>
-      </TypoContainer>
 
       <SubTitle center coloredBackground>
         연락처
