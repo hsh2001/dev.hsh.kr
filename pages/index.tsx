@@ -65,6 +65,15 @@ const Page: NextPage = () => {
         경력
       </SubTitle>
 
+
+      <TypoContainer>
+        <Paragraph>
+          <b>
+            총 경력 4년 4개월
+          </b>
+        </Paragraph>
+      </TypoContainer>
+
       <TypoContainer>
         <SubTitle>Cultural Resources LLC</SubTitle>
         <Paragraph>
