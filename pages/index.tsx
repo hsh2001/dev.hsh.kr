@@ -60,17 +60,13 @@ const Page: NextPage = () => {
         <Paragraph center>무엇이든 해내는 실행력 좋은 개발자.</Paragraph>
       </IntroSection>
 
-
       <SubTitle center coloredBackground>
         경력
       </SubTitle>
 
-
       <TypoContainer>
         <Paragraph>
-          <b>
-            총 경력 4년 4개월
-          </b>
+          <b>총 경력 4년 4개월</b>
         </Paragraph>
       </TypoContainer>
 
@@ -91,9 +87,7 @@ const Page: NextPage = () => {
 
         <SubTitle>에코앤컴퍼니 (Mark87)</SubTitle>
         <Paragraph>
-          <b>
-            2021년 4월 ~ 2022년 4월 (1년) / 서울, 한국 / 풀스택 개발자
-          </b>
+          <b>2021년 4월 ~ 2022년 4월 (1년) / 서울, 한국 / 풀스택 개발자</b>
         </Paragraph>
         <Paragraph>
           서울시 강서구에 위치한 마케팅 업체로 인플루언서 마케팅 플랫폼
@@ -321,8 +315,37 @@ const Page: NextPage = () => {
             https://mathpang.com
           </a>
         </Paragraph>
-      </TypoContainer>
 
+        <SubTitle>Gibbon Edu</SubTitle>
+        <ShadowImage src="/images/gibbon.png" alt="" />
+        <Paragraph>
+          Gibbon Edu는 학교의 학사 관리를 위한 오픈소스 소프트웨어입니다. PHP로
+          작성된 소프트웨어를 개선하여 v27을 배포하는 데 기여했습니다.
+        </Paragraph>
+        <Paragraph>
+          <br />
+          작성한 PR:
+          <ul>
+            <li>
+              <a
+                href="https://github.com/GibbonEdu/core/pull/1811"
+                target="_blank"
+              >
+                #1811 (Open, 강의계획서를 자동저장하는 기능의 추가.)
+              </a>
+            </li>
+          </ul>
+          <br />
+          <br />
+          <a href="https://gibbonedu.org/" target="_blank">
+            https://gibbonedu.org/
+          </a>
+          <br />
+          <a href="https://github.com/GibbonEdu/core" target="_blank">
+            https://github.com/GibbonEdu/core
+          </a>
+        </Paragraph>
+      </TypoContainer>
 
       <SubTitle center coloredBackground>
         연락처
