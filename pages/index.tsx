@@ -34,7 +34,7 @@ const IntroSection = styled.div`
     height: 200px;
     border-radius: 50%;
     margin: auto;
-    display: block;
+    display: block !important;
     margin-top: 40px;
   }
 `;
@@ -43,7 +43,14 @@ const Page: NextPage = () => {
   return (
     <Layout>
       <IntroSection>
-        <img className="myPic" src="/images/me.jpg" alt="" />
+        <img
+          className="myPic"
+          src="/images/me.jpg"
+          alt=""
+          style={{
+            display: 'none',
+          }}
+        />
 
         <Title center>🐙 황승현</Title>
 
