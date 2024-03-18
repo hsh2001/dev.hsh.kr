@@ -286,7 +286,7 @@ const Page: NextPage = () => {
           <br />
           <br />
           <a href="https://echoblog.net" target="_blank">
-            https://echoblog.net/
+            https://echoblog.net
           </a>
         </Paragraph>
 
@@ -306,7 +306,7 @@ const Page: NextPage = () => {
           <br />
           <br />
           <a href="https://mars.club/" target="_blank">
-            https://mars.club/ (현재 서비스 종료)
+            https://mars.club (현재 서비스 종료)
           </a>
         </Paragraph>
 
