@@ -110,8 +110,8 @@ const Page: NextPage = () => {
           업체로, 2022년 5월부터 2024년 1월까지 근무하였습니다. 기존 배포
           스크립트의 불안정성으로 인해 백엔드 서비스를 배포할 때마다 서비스가
           일시적으로 마비되던 문제가 있었는데, 이를 블루 그린 배포 전략을
-          채택하고 구현하는 것으로 해결하였습니다. 멀티 유저 서비스에 필요한
-          실시간 채팅 서비스를 구현하며 게임 사용자끼리 소통 하고 하나의
+          채택하고 구현하는 것으로 해결하였습니다. 멀티유저 서비스에 필요한
+          실시간 채팅 서비스를 구현하며 게임 사용자끼리 소통하고 하나의
           커뮤니티를 형성하도록 했습니다.
         </Paragraph>
       </TypoContainer>
@@ -336,8 +336,8 @@ const Page: NextPage = () => {
             </li>
           </ul>
           <br />
-          <a href="https://gibbonedu.org/" target="_blank">
-            https://gibbonedu.org/
+          <a href="https://gibbonedu.org" target="_blank">
+            https://gibbonedu.org
           </a>
           <br />
           <a href="https://github.com/GibbonEdu/core" target="_blank">
