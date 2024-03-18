@@ -336,7 +336,6 @@ const Page: NextPage = () => {
             </li>
           </ul>
           <br />
-          <br />
           <a href="https://gibbonedu.org/" target="_blank">
             https://gibbonedu.org/
           </a>
