@@ -79,11 +79,25 @@ const Page: NextPage = () => {
 
       <TypoContainer>
         <SubTitle>Cultural Resources LLC</SubTitle>
+
         <Paragraph>
           <b>
             2019년 7월 ~ 2021년 2월 (1년 8개월) / 캘리포니아, 미국 / 프리랜서
           </b>
         </Paragraph>
+
+        <ul>
+          <li>
+            <a href="https://spots.edu/" target="_blank">
+              https://spots.edu
+            </a>
+          </li>
+          <li>
+            <a href="https://cultureatlas.app/" target="_blank">
+              https://cultureatlas.app
+            </a>
+          </li>
+        </ul>
 
         <ul>
           <li>
@@ -103,6 +117,20 @@ const Page: NextPage = () => {
         <Paragraph>
           <b>2021년 4월 ~ 2022년 4월 (1년) / 서울, 한국 / 풀스택 개발자</b>
         </Paragraph>
+
+        <ul>
+          <li>
+            <a href="http://www.echoimc.com/" target="_blank">
+              http://www.echoimc.com
+            </a>
+          </li>
+          <li>
+            <a href="https://www.mark87.com/ko/" target="_blank">
+              https://www.mark87.com/ko
+            </a>
+          </li>
+        </ul>
+
         <ul>
           <li>
             인플루언서 마케팅 플랫폼 에코블로그를 개발하고 서비스하는 서울시
@@ -125,6 +153,15 @@ const Page: NextPage = () => {
             2022년 5월 ~ 2024년 1월 (1년 8개월) / 서울, 한국 / 백엔드 개발자
           </b>
         </Paragraph>
+
+        <ul>
+          <li>
+            <a href="http://mathpang.com/" target="_blank">
+              http://mathpang.com
+            </a>
+          </li>
+        </ul>
+
         <ul>
           <li>
             서울시 관악구에 위치한 수학 교육 서비스 Mathpang을 개발하고
