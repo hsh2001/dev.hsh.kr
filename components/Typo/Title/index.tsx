@@ -6,7 +6,16 @@ const titleCss = css`
   font-size: 42px;
   font-weight: 800;
 
-  ${({ center }: { center?: boolean }) => (center ? 'margin-top: 80px' : '')};
+  ${({ center }: { center?: boolean }) =>
+    center
+      ? css`
+          margin-top: 80px;
+          width: 75%;
+          margin-right: auto;
+          margin-left: auto;
+          word-break: keep-all;
+        `
+      : ''};
 `;
 
 export const Title = styled.h1<{
