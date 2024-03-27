@@ -5,6 +5,8 @@ import { generateCenterOptionalCss } from './generateCenterOptionalCss';
 const titleCss = css`
   font-size: 42px;
   font-weight: 800;
+
+  ${({ center }: { center?: boolean }) => (center ? 'margin-top: 80px' : '')};
 `;
 
 export const Title = styled.h1<{
