@@ -78,75 +78,6 @@ const Page: NextPage = () => {
       </TypoContainer>
 
       <TypoContainer>
-        <SubTitle>Cultural Resources LLC</SubTitle>
-
-        <Paragraph>
-          <b>
-            2019년 7월 ~ 2021년 2월 (1년 8개월) / 캘리포니아, 미국 / 프리랜서
-          </b>
-        </Paragraph>
-
-        <ul>
-          <li>
-            <a href="https://spots.edu/" target="_blank">
-              https://spots.edu
-            </a>
-          </li>
-          <li>
-            <a href="https://cultureatlas.app/" target="_blank">
-              https://cultureatlas.app
-            </a>
-          </li>
-        </ul>
-
-        <ul>
-          <li>
-            미국 캘리포니아에 위치한 Cultural Atlas를 개발하고 서비스하는 업체
-          </li>
-
-          <li>
-            약 1년간 크롤러 및 전처리 프로그램을 개발하며 웹앱에 사용될 데이터를
-            수집
-          </li>
-          <li>
-            이후 UI 개발과 Stripe를 통한 결제 서비스 도입으로 수익화에 성공
-          </li>
-        </ul>
-
-        <SubTitle>에코앤컴퍼니 (Mark87)</SubTitle>
-        <Paragraph>
-          <b>2021년 4월 ~ 2022년 4월 (1년) / 서울, 한국 / 풀스택 개발자</b>
-        </Paragraph>
-
-        <ul>
-          <li>
-            <a href="http://www.echoimc.com/" target="_blank">
-              http://www.echoimc.com
-            </a>
-          </li>
-          <li>
-            <a href="https://www.mark87.com/ko/" target="_blank">
-              https://www.mark87.com/ko
-            </a>
-          </li>
-        </ul>
-
-        <ul>
-          <li>
-            인플루언서 마케팅 플랫폼 에코블로그를 개발하고 서비스하는 서울시
-            강서구에 위치한 마케팅 업체로, 추후 IT 사업 확장을 위해 자회사 법인
-            Mark87을 설립하며 편입
-          </li>
-          <li>
-            무료 서비스였던 에코블로그에 토스 페이먼츠와의 연동으로 수익 모델의
-            기능을 구현하여 수익화에 성공
-          </li>
-          <li>
-            음원 NFT 서비스 MARS를 개발하며 NFT와 블록체인에 대한 지식 습득
-          </li>
-          <li>온프레미스 서버를 구축하여 테스트 서버 구성을 담당.</li>
-        </ul>
-
         <SubTitle>Mathpang</SubTitle>
         <Paragraph>
           <b>
@@ -234,6 +165,76 @@ const Page: NextPage = () => {
             사용자끼리 소통하고 하나의 커뮤니티를 형성
           </li>
         </ul>
+
+        <SubTitle>에코앤컴퍼니 (Mark87)</SubTitle>
+        <Paragraph>
+          <b>2021년 4월 ~ 2022년 4월 (1년) / 서울, 한국 / 풀스택 개발자</b>
+        </Paragraph>
+
+        <ul>
+          <li>
+            <a href="http://www.echoimc.com/" target="_blank">
+              http://www.echoimc.com
+            </a>
+          </li>
+          <li>
+            <a href="https://www.mark87.com/ko/" target="_blank">
+              https://www.mark87.com/ko
+            </a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            인플루언서 마케팅 플랫폼 에코블로그를 개발하고 서비스하는 서울시
+            강서구에 위치한 마케팅 업체로, 추후 IT 사업 확장을 위해 자회사 법인
+            Mark87을 설립하며 편입
+          </li>
+          <li>
+            무료 서비스였던 에코블로그에 토스 페이먼츠와의 연동으로 수익 모델의
+            기능을 구현하여 수익화에 성공
+          </li>
+          <li>
+            음원 NFT 서비스 MARS를 개발하며 NFT와 블록체인에 대한 지식 습득
+          </li>
+          <li>온프레미스 서버를 구축하여 테스트 서버 구성을 담당.</li>
+        </ul>
+
+        <SubTitle>Cultural Resources LLC</SubTitle>
+
+        <Paragraph>
+          <b>
+            2019년 7월 ~ 2021년 2월 (1년 8개월) / 캘리포니아, 미국 / 프리랜서
+          </b>
+        </Paragraph>
+
+        <ul>
+          <li>
+            <a href="https://spots.edu/" target="_blank">
+              https://spots.edu
+            </a>
+          </li>
+          <li>
+            <a href="https://cultureatlas.app/" target="_blank">
+              https://cultureatlas.app
+            </a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            미국 캘리포니아에 위치한 Cultural Atlas를 개발하고 서비스하는 업체
+          </li>
+
+          <li>
+            약 1년간 크롤러 및 전처리 프로그램을 개발하며 웹앱에 사용될 데이터를
+            수집
+          </li>
+          <li>
+            이후 UI 개발과 Stripe를 통한 결제 서비스 도입으로 수익화에 성공
+          </li>
+        </ul>
+
         <Paragraph></Paragraph>
       </TypoContainer>
 
@@ -242,19 +243,6 @@ const Page: NextPage = () => {
       </SubTitle>
 
       <TypoContainer>
-        <SubTitle>ReactJS 및 NextJS</SubTitle>
-        <HashtagContainer>
-          <HashtagText>#SSR</HashtagText>
-          <HashtagText>#CSR</HashtagText>
-          <HashtagText>#SSG</HashtagText>
-          <HashtagText>#FunctionComponent</HashtagText>
-          <HashtagText>#HOC</HashtagText>
-        </HashtagContainer>
-        <Paragraph>
-          함수형 컴포넌트와 HOC 패턴등을 적극 활용하여 재활용성 높은 웹 UI
-          개발을 합니다. NextJS 로 Server-side 렌더링을 사용해 사용자에게 더욱
-          빠르게 컨텐츠를 전달할 수 있도록 개선할 수 있습니다.
-        </Paragraph>
         <SubTitle>NestJS</SubTitle>
         <HashtagContainer>
           <HashtagText>#의존성_주입</HashtagText>
@@ -359,6 +347,19 @@ const Page: NextPage = () => {
           이렇게 작성된 계약으로 NFT를 민팅하고 OpenSea와 같은 플랫폼에서 거래할
           수 있습니다. 이 거래를 통해 거래 수수료를 책정해 수익화할 수 있습니다.
         </Paragraph>
+        <SubTitle>ReactJS 및 NextJS</SubTitle>
+        <HashtagContainer>
+          <HashtagText>#SSR</HashtagText>
+          <HashtagText>#CSR</HashtagText>
+          <HashtagText>#SSG</HashtagText>
+          <HashtagText>#FunctionComponent</HashtagText>
+          <HashtagText>#HOC</HashtagText>
+        </HashtagContainer>
+        <Paragraph>
+          함수형 컴포넌트와 HOC 패턴등을 적극 활용하여 재활용성 높은 웹 UI
+          개발을 합니다. NextJS 로 Server-side 렌더링을 사용해 사용자에게 더욱
+          빠르게 컨텐츠를 전달할 수 있도록 개선할 수 있습니다.
+        </Paragraph>
       </TypoContainer>
 
       <SubTitle center coloredBackground>
@@ -366,6 +367,17 @@ const Page: NextPage = () => {
       </SubTitle>
 
       <TypoContainer>
+        <SubTitle>Mathpang</SubTitle>
+        <ShadowImage src="/images/mathpang/main.png" alt="" />
+        <Paragraph>
+          수학 교육의 게이미피케이션 서비스입니다. NestJS로 작성된 서버를
+          작성하고 AWS 인프라를 유지보수하였습니다.
+          <br />
+          <br />
+          <a href="https://mathpang.com" target="_blank">
+            https://mathpang.com
+          </a>
+        </Paragraph>
         <SubTitle>Cultural Atlas</SubTitle>
         <ShadowImage src="/images/cri.png" alt="" />
         <HashtagContainer>
@@ -420,17 +432,6 @@ const Page: NextPage = () => {
           <br />
           <a href="https://mars.club/" target="_blank">
             https://mars.club (현재 서비스 종료)
-          </a>
-        </Paragraph>
-        <SubTitle>Mathpang</SubTitle>
-        <ShadowImage src="/images/mathpang/main.png" alt="" />
-        <Paragraph>
-          수학 교육의 게이미피케이션 서비스입니다. NestJS로 작성된 서버를
-          작성하고 AWS 인프라를 유지보수하였습니다.
-          <br />
-          <br />
-          <a href="https://mathpang.com" target="_blank">
-            https://mathpang.com
           </a>
         </Paragraph>
         <SubTitle>Gibbon Edu</SubTitle>
