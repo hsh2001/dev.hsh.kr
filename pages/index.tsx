@@ -83,6 +83,9 @@ const Page: NextPage = () => {
           <b>
             2022년 5월 ~ 2024년 1월 (1년 8개월) / 서울, 한국 / 백엔드 개발자
           </b>
+          <br />
+          서울시 관악구에 위치한 수학 교육 서비스 Mathpang을 개발하고 서비스하는
+          업체
         </Paragraph>
 
         <ul>
@@ -93,82 +96,13 @@ const Page: NextPage = () => {
           </li>
         </ul>
 
-        <ul>
-          <li>
-            서울시 관악구에 위치한 수학 교육 서비스 Mathpang을 개발하고
-            서비스하는 업체
-          </li>
-
-          <li>
-            학부모를 위한 독립된 서비스를 기존 CRA에서 Next.js로 마이그레이션
-          </li>
-
-          <li>
-            서비스의 게임적 요소인 "디저트 점령전"을 구현하며 게임 서버를 개발
-          </li>
-
-          <li>
-            서비스의 게임적 요소인 "젤리 듀얼"을 구현하며 게임 서버를 개발
-          </li>
-
-          <li>사용자를 하나의 클랜으로 묶어 커뮤니티를 형성하는 기능을 구현</li>
-
-          <li>
-            이미지를 업로드하는 기능에서 음란물을 차단하는 기능을 AWS Amazon
-            Rekognition 을 사용하여 구현
-          </li>
-
-          <li>유저간의 친구 추가 기능을 구현</li>
-
-          <li>
-            자주 사용되거나 실행시간이 오래 걸리는 쿼리를 Redis에 캐싱하는
-            데코레이터를 구현하여 서비스의 응답속도를 높임
-          </li>
-
-          <li>
-            클랜 유저끼리 클랜을 성장 시킬 수 있는 게임적 요소인 "클랜 기술"을
-            구현
-          </li>
-
-          <li>
-            UnitTest 코드를 지속적으로 작성하고 CI를 구축하여 코드의 품질을 유지
-          </li>
-
-          <li>
-            온프레미스 서버를 구축하여 테스트 서버 구성을 담당하여 매달 AWS
-            비용을 약 150만원 절감.
-          </li>
-
-          <li>
-            CI/CD에 사용되는 GitHub Action을 사내 컴퓨터에서 Self-hosted
-            Runner로 구성하여 개발환경을 안정화하고, GitHub 비용을 매달 약
-            10만원 절감.
-          </li>
-
-          <li>
-            어드민 페이지를 구현하여 서비스의 운영을 도와주는 기능을 개발하고
-            운영
-          </li>
-
-          <li>RDS의 레플리케이션 전략을 구현하여 서비스의 가용성을 높임.</li>
-
-          <li>
-            기존 배포 스크립트의 불안정성으로 인해 백엔드 서비스를 배포할 때마다
-            서비스가 일시적으로 마비되던 문제가 있었는데, 이를 블루 그린 배포
-            전략을 채택하고 구현하는 것으로 해결
-          </li>
-
-          <li>구글 플레이스토어에서 구독 멤버십 기능을 구현하고 수익화함.</li>
-
-          <li>
-            멀티유저 서비스에 필요한 실시간 채팅 서비스를 구현하며 게임
-            사용자끼리 소통하고 하나의 커뮤니티를 형성
-          </li>
-        </ul>
-
         <SubTitle>에코앤컴퍼니 (Mark87)</SubTitle>
         <Paragraph>
           <b>2021년 4월 ~ 2022년 4월 (1년) / 서울, 한국 / 풀스택 개발자</b>
+          <br />
+          인플루언서 마케팅 플랫폼 에코블로그를 개발하고 서비스하는 서울시
+          강서구에 위치한 마케팅 업체로, 추후 IT 사업 확장을 위해 자회사 법인
+          Mark87을 설립하며 편입
         </Paragraph>
 
         <ul>
@@ -184,28 +118,14 @@ const Page: NextPage = () => {
           </li>
         </ul>
 
-        <ul>
-          <li>
-            인플루언서 마케팅 플랫폼 에코블로그를 개발하고 서비스하는 서울시
-            강서구에 위치한 마케팅 업체로, 추후 IT 사업 확장을 위해 자회사 법인
-            Mark87을 설립하며 편입
-          </li>
-          <li>
-            무료 서비스였던 에코블로그에 토스 페이먼츠와의 연동으로 수익 모델의
-            기능을 구현하여 수익화에 성공
-          </li>
-          <li>
-            음원 NFT 서비스 MARS를 개발하며 NFT와 블록체인에 대한 지식 습득
-          </li>
-          <li>온프레미스 서버를 구축하여 테스트 서버 구성을 담당.</li>
-        </ul>
-
         <SubTitle>Cultural Resources LLC</SubTitle>
 
         <Paragraph>
           <b>
             2019년 7월 ~ 2021년 2월 (1년 8개월) / 캘리포니아, 미국 / 프리랜서
           </b>
+          <br />
+          미국 캘리포니아에 위치한 Cultural Atlas를 개발하고 서비스하는 업체
         </Paragraph>
 
         <ul>
@@ -221,11 +141,104 @@ const Page: NextPage = () => {
           </li>
         </ul>
 
+        <Paragraph></Paragraph>
+      </TypoContainer>
+
+      <SubTitle center coloredBackground>
+        참여 프로젝트
+      </SubTitle>
+
+      <TypoContainer>
+        <SubTitle>Mathpang</SubTitle>
+        <ShadowImage src="/images/mathpang/main.png" alt="" />
+        <HashtagContainer>
+          <HashtagText>#NestJS</HashtagText>
+          <HashtagText>#AWS</HashtagText>
+          <HashtagText>#CDK</HashtagText>
+          <HashtagText>#NextJS</HashtagText>
+        </HashtagContainer>
+        <Paragraph>
+          <a href="https://mathpang.com" target="_blank">
+            https://mathpang.com
+          </a>
+          <br />
+          <br />
+          수학 교육의 게이미피케이션 서비스입니다. NestJS로 작성된 서버를
+          작성하고 AWS 인프라를 유지보수하였습니다.
+        </Paragraph>
         <ul>
           <li>
-            미국 캘리포니아에 위치한 Cultural Atlas를 개발하고 서비스하는 업체
+            학부모를 위한 독립된 서비스를 기존 CRA에서 Next.js로 마이그레이션
           </li>
-
+          <li>
+            서비스의 게임적 요소인 "디저트 점령전"을 구현하며 게임 서버를 개발
+          </li>
+          <li>
+            서비스의 게임적 요소인 "젤리 듀얼"을 구현하며 게임 서버를 개발
+          </li>
+          <li>사용자를 하나의 클랜으로 묶어 커뮤니티를 형성하는 기능을 구현</li>
+          <li>
+            이미지를 업로드하는 기능에서 음란물을 차단하는 기능을 AWS Amazon
+            Rekognition 을 사용하여 구현
+          </li>
+          <li>유저간의 친구 추가 기능을 구현</li>
+          <li>
+            자주 사용되거나 실행시간이 오래 걸리는 쿼리를 Redis에 캐싱하는
+            데코레이터를 구현하여 서비스의 응답속도를 높임
+          </li>
+          <li>
+            클랜 유저끼리 클랜을 성장 시킬 수 있는 게임적 요소인 "클랜 기술"을
+            구현
+          </li>
+          <li>
+            UnitTest 코드를 지속적으로 작성하고 CI를 구축하여 코드의 품질을 유지
+          </li>
+          <li>
+            온프레미스 서버를 구축하여 테스트 서버 구성을 담당하여 매달 AWS
+            비용을 약 150만원 절감.
+          </li>
+          <li>
+            CI/CD에 사용되는 GitHub Action을 사내 컴퓨터에서 Self-hosted
+            Runner로 구성하여 개발환경을 안정화하고, GitHub 비용을 매달 약
+            10만원 절감.
+          </li>
+          <li>
+            어드민 페이지를 구현하여 서비스의 운영을 도와주는 기능을 개발하고
+            운영
+          </li>
+          <li>RDS의 레플리케이션 전략을 구현하여 서비스의 가용성을 높임.</li>
+          <li>
+            기존 배포 스크립트의 불안정성으로 인해 백엔드 서비스를 배포할 때마다
+            서비스가 일시적으로 마비되던 문제가 있었는데, 이를 블루 그린 배포
+            전략을 채택하고 구현하는 것으로 해결
+          </li>
+          <li>구글 플레이스토어에서 구독 멤버십 기능을 구현하고 수익화함.</li>
+          <li>
+            멀티유저 서비스에 필요한 실시간 채팅 서비스를 구현하며 게임
+            사용자끼리 소통하고 하나의 커뮤니티를 형성
+          </li>
+        </ul>
+        <SubTitle>Cultural Atlas</SubTitle>
+        <ShadowImage src="/images/cri.png" alt="" />
+        <HashtagContainer>
+          <HashtagText>#웹_크롤링</HashtagText>
+          <HashtagText>#데이터_처리</HashtagText>
+          <HashtagText>#레거시_코드_리팩토링</HashtagText>
+          <HashtagText>#Stripe_결제_연동</HashtagText>
+        </HashtagContainer>
+        <Paragraph>
+          <a href="https://cultureatlas.app" target="_blank">
+            https://cultureatlas.app
+          </a>
+          <br />
+          <br />
+          교육용으로 제작된 웹 어플리케이션입니다. 지구본 모형 위에 여러 정보를
+          보여주는 UI를 제공합니다. UI의 기본 구현과 사용될 데이터의 크롤링 및
+          전처리를 담당했습니다. Perl로 작성된 레거시 코드를 NodeJS 코드로
+          리팩토링하여 유지보수에 용이하게 하였습니다. 이후 Stripe 와의 연동을
+          구현하며 수익화를 유도했습니다.
+        </Paragraph>
+        <ul>
           <li>
             약 1년간 크롤러 및 전처리 프로그램을 개발하며 웹앱에 사용될 데이터를
             수집
@@ -234,8 +247,84 @@ const Page: NextPage = () => {
             이후 UI 개발과 Stripe를 통한 결제 서비스 도입으로 수익화에 성공
           </li>
         </ul>
-
-        <Paragraph></Paragraph>
+        <SubTitle>EchoBlog</SubTitle>
+        <ShadowImage src="/images/echoblog.jpg" alt="" />
+        <HashtagContainer>
+          <HashtagText>#토스_페이먼츠_결제_연동</HashtagText>
+          <HashtagText>#CS팀과의_협업</HashtagText>
+        </HashtagContainer>
+        <Paragraph>
+          <a href="https://echoblog.net" target="_blank">
+            https://echoblog.net
+          </a>
+          <br />
+          <br />
+          EchoBlog는 무료로 서비스되던 인플루언서 마케팅 플랫폼입니다. 플랫폼의
+          수익화를 위해 토스 페이먼츠의 연동을 구현하며 수익화에 성공했습니다.
+          CS팀과의 협업을 위해 관리자 페이지를 꾸준히 개선하고 운영하며 안정적인
+          운영을 도왔습니다.
+        </Paragraph>
+        <ul>
+          <li>
+            무료 서비스였던 에코블로그에 토스 페이먼츠와의 연동으로 수익 모델의
+            기능을 구현하여 수익화에 성공
+          </li>
+          <li>
+            음원 NFT 서비스 MARS를 개발하며 NFT와 블록체인에 대한 지식 습득
+          </li>
+          <li>온프레미스 서버를 구축하여 테스트 서버 구성을 담당.</li>
+        </ul>
+        <SubTitle>MARS</SubTitle>
+        <ShadowImage src="/images/nft.jpg" alt="" />
+        <HashtagContainer>
+          <HashtagText>#WEB3</HashtagText>
+          <HashtagText>#NFT</HashtagText>
+          <HashtagText>#IPFS</HashtagText>
+          <HashtagText>#Solidity</HashtagText>
+        </HashtagContainer>
+        <Paragraph>
+          <a href="https://mars.club/" target="_blank">
+            https://mars.club (현재 서비스 종료)
+          </a>
+          <br />
+          <br />
+          음악을 NFT화하는 서비스입니다. Solidity를 사용하여 Smart Contract를
+          작성하고 배포하였습니다. IPFS에 음원을 올리고 NodeJS로 NFT를
+          민트했습니다. OpenSea에도 올리고 거래 수수료 정책을 이용하여 수익화를
+          시도하였습니다.
+        </Paragraph>
+        <SubTitle>Gibbon Edu</SubTitle>
+        <ShadowImage src="/images/gibbon.png" alt="" />
+        <HashtagContainer>
+          <HashtagText>#오픈소스</HashtagText>
+          <HashtagText>#PHP</HashtagText>
+        </HashtagContainer>
+        <Paragraph>
+          Gibbon Edu는 학교의 학사 관리를 위한 오픈소스 소프트웨어입니다. PHP로
+          작성된 소프트웨어를 개선하여 v27을 배포하는 데 기여했습니다.
+        </Paragraph>
+        <br />
+        작성한 PR:
+        <ul>
+          <li>
+            <a
+              href="https://github.com/GibbonEdu/core/pull/1811"
+              target="_blank"
+            >
+              #1811 (Open, 강의계획서를 자동저장하는 기능의 추가.)
+            </a>
+          </li>
+        </ul>
+        <Paragraph>
+          <br />
+          <a href="https://gibbonedu.org" target="_blank">
+            https://gibbonedu.org
+          </a>
+          <br />
+          <a href="https://github.com/GibbonEdu/core" target="_blank">
+            https://github.com/GibbonEdu/core
+          </a>
+        </Paragraph>
       </TypoContainer>
 
       <SubTitle center coloredBackground>
@@ -359,108 +448,6 @@ const Page: NextPage = () => {
           함수형 컴포넌트와 HOC 패턴등을 적극 활용하여 재활용성 높은 웹 UI
           개발을 합니다. NextJS 로 Server-side 렌더링을 사용해 사용자에게 더욱
           빠르게 컨텐츠를 전달할 수 있도록 개선할 수 있습니다.
-        </Paragraph>
-      </TypoContainer>
-
-      <SubTitle center coloredBackground>
-        참여 프로젝트
-      </SubTitle>
-
-      <TypoContainer>
-        <SubTitle>Mathpang</SubTitle>
-        <ShadowImage src="/images/mathpang/main.png" alt="" />
-        <Paragraph>
-          수학 교육의 게이미피케이션 서비스입니다. NestJS로 작성된 서버를
-          작성하고 AWS 인프라를 유지보수하였습니다.
-          <br />
-          <br />
-          <a href="https://mathpang.com" target="_blank">
-            https://mathpang.com
-          </a>
-        </Paragraph>
-        <SubTitle>Cultural Atlas</SubTitle>
-        <ShadowImage src="/images/cri.png" alt="" />
-        <HashtagContainer>
-          <HashtagText>#웹_크롤링</HashtagText>
-          <HashtagText>#데이터_처리</HashtagText>
-          <HashtagText>#레거시_코드_리팩토링</HashtagText>
-          <HashtagText>#Stripe_결제_연동</HashtagText>
-        </HashtagContainer>
-        <Paragraph>
-          교육용으로 제작된 웹 어플리케이션입니다. 지구본 모형 위에 여러 정보를
-          보여주는 UI를 제공합니다. UI의 기본 구현과 사용될 데이터의 크롤링 및
-          전처리를 담당했습니다. Perl로 작성된 레거시 코드를 NodeJS 코드로
-          리팩토링하여 유지보수에 용이하게 하였습니다. 이후 Stripe 와의 연동을
-          구현하며 수익화를 유도했습니다.
-          <br />
-          <br />
-          <a href="https://cultureatlas.app" target="_blank">
-            https://cultureatlas.app
-          </a>
-        </Paragraph>
-        <SubTitle>EchoBlog</SubTitle>
-        <ShadowImage src="/images/echoblog.jpg" alt="" />
-        <HashtagContainer>
-          <HashtagText>#토스_페이먼츠_결제_연동</HashtagText>
-          <HashtagText>#CS팀과의_협업</HashtagText>
-        </HashtagContainer>
-        <Paragraph>
-          EchoBlog는 무료로 서비스되던 인플루언서 마케팅 플랫폼입니다. 플랫폼의
-          수익화를 위해 토스 페이먼츠의 연동을 구현하며 수익화에 성공했습니다.
-          CS팀과의 협업을 위해 관리자 페이지를 꾸준히 개선하고 운영하며 안정적인
-          운영을 도왔습니다.
-          <br />
-          <br />
-          <a href="https://echoblog.net" target="_blank">
-            https://echoblog.net
-          </a>
-        </Paragraph>
-        <SubTitle>MARS</SubTitle>
-        <ShadowImage src="/images/nft.jpg" alt="" />
-        <HashtagContainer>
-          <HashtagText>#WEB3</HashtagText>
-          <HashtagText>#NFT</HashtagText>
-          <HashtagText>#IPFS</HashtagText>
-          <HashtagText>#Solidity</HashtagText>
-        </HashtagContainer>
-        <Paragraph>
-          음악을 NFT화하는 서비스입니다. Solidity를 사용하여 Smart Contract를
-          작성하고 배포하였습니다. IPFS에 음원을 올리고 NodeJS로 NFT를
-          민트했습니다. OpenSea에도 올리고 거래 수수료 정책을 이용하여 수익화를
-          시도하였습니다.
-          <br />
-          <br />
-          <a href="https://mars.club/" target="_blank">
-            https://mars.club (현재 서비스 종료)
-          </a>
-        </Paragraph>
-        <SubTitle>Gibbon Edu</SubTitle>
-        <ShadowImage src="/images/gibbon.png" alt="" />
-        <Paragraph>
-          Gibbon Edu는 학교의 학사 관리를 위한 오픈소스 소프트웨어입니다. PHP로
-          작성된 소프트웨어를 개선하여 v27을 배포하는 데 기여했습니다.
-        </Paragraph>
-        <br />
-        작성한 PR:
-        <ul>
-          <li>
-            <a
-              href="https://github.com/GibbonEdu/core/pull/1811"
-              target="_blank"
-            >
-              #1811 (Open, 강의계획서를 자동저장하는 기능의 추가.)
-            </a>
-          </li>
-        </ul>
-        <Paragraph>
-          <br />
-          <a href="https://gibbonedu.org" target="_blank">
-            https://gibbonedu.org
-          </a>
-          <br />
-          <a href="https://github.com/GibbonEdu/core" target="_blank">
-            https://github.com/GibbonEdu/core
-          </a>
         </Paragraph>
       </TypoContainer>
 
