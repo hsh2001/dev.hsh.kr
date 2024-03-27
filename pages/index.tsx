@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import { HashtagText } from '../components/Typo/Hashtag';
 import { ShadowImage } from '../components/Typo/Images/ShadowImage';
 import { Paragraph } from '../components/Typo/Paragraph';
-import { SubTitle, Title } from '../components/Typo/Title';
+import { SubTitle } from '../components/Typo/Title';
 import { TypoContainer } from '../components/Typo/TypoContainer';
 
 const HashtagContainer = styled.div<{
@@ -51,25 +51,51 @@ const Page: NextPage = () => {
             display: 'none',
           }}
         />
-
-        <Title center>황승현</Title>
-
-        <TypoContainer>
-          <HashtagContainer center>
-            <HashtagText>#백엔드 개발자</HashtagText>
-            <HashtagText>#풀스택 개발자</HashtagText>
-            <HashtagText>#인프라 엔지니어</HashtagText>
-            <HashtagText>#DEVOPS 엔지니어</HashtagText>
-            <HashtagText>#CI/CD 엔지니어</HashtagText>
-          </HashtagContainer>
-        </TypoContainer>
-
-        <Paragraph center>무엇이든 해내는 실행력 좋은 개발자.</Paragraph>
       </IntroSection>
 
-      <SubTitle center coloredBackground>
-        경력
-      </SubTitle>
+      <SubTitle center>👋 안녕하세요. 개발자 황승현입니다.</SubTitle>
+
+      <TypoContainer>
+        <Paragraph>
+          <b>동료와 소통하길 좋아해요.</b>
+          <br />
+          <span>
+            우리가 무엇을 해결해야 하고, 어떻게 해결해야 할지 동료들과 끊임없이
+            소통하고 의견을 나누길 좋아합니다. 이 과정에서 업무를 더욱
+            효율적으로 해결하거나 잘못된 부분을 바로 잡으면 큰 보람을 느낍니다.
+            업무뿐만 아니라 일상적인 대화에서도 동료들과 가까워지기 위해
+            대화하길 즐깁니다. 어떠한 직장에서는 제가 "분위기 메이커"로
+            불렸답니다.
+          </span>
+
+          <br />
+          <br />
+
+          <b>한번 발견한 문제는 끈질기게 물고 늘어져요.</b>
+          <br />
+          <span>
+            내 사전에 포기란 없다! 한번 마주한 문제는 해결하기 전까지는 잠에
+            들지 못할 정도로 주어진 문제를 해결하고자 하는 열정이 있습니다.
+            이러한 모습은 주변 동료에게도 긍정적인 영향을 미쳐 모두 힘낼 수 있는
+            원동력이 되었습니다.
+          </span>
+
+          <br />
+          <br />
+
+          <b>
+            스스로 문제를 발견하고, 해결법을 제시하고, 실행에 옮길 수 있어요.
+          </b>
+          <br />
+          <span>
+            제 업무는 PM이나 기획자등이 제시한 문제를 해결하는 것에서 그치지
+            않았습니다. 새로운 문제를 발견하면 그 문제를 동료에게 공유하고
+            해결법을 제시해서 실행에 옮기곤 했습니다.
+          </span>
+        </Paragraph>
+      </TypoContainer>
+
+      <SubTitle center>🛫 이런 곳에서 근무했어요.</SubTitle>
 
       <TypoContainer>
         <Paragraph>
@@ -144,9 +170,7 @@ const Page: NextPage = () => {
         <Paragraph></Paragraph>
       </TypoContainer>
 
-      <SubTitle center coloredBackground>
-        참여 프로젝트
-      </SubTitle>
+      <SubTitle center>👾 이런 프로젝트에 참여했어요.</SubTitle>
 
       <TypoContainer>
         <SubTitle>Mathpang</SubTitle>
@@ -327,9 +351,7 @@ const Page: NextPage = () => {
         </Paragraph>
       </TypoContainer>
 
-      <SubTitle center coloredBackground>
-        기술 스택
-      </SubTitle>
+      <SubTitle center>🔧 이런 기술을 쓸 수 있어요.</SubTitle>
 
       <TypoContainer>
         <SubTitle>NestJS</SubTitle>
@@ -451,9 +473,7 @@ const Page: NextPage = () => {
         </Paragraph>
       </TypoContainer>
 
-      <SubTitle center coloredBackground>
-        연락처
-      </SubTitle>
+      <SubTitle center>📞 연락처</SubTitle>
 
       <TypoContainer>
         <Paragraph>Phone: 010-6379-0084</Paragraph>
