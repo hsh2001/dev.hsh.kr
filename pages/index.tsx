@@ -385,7 +385,7 @@ const Page: NextPage = () => {
               href="https://github.com/GibbonEdu/core/pull/1811"
               target="_blank"
             >
-              #1811 (Open, 강의계획서를 자동저장하는 기능의 추가.)
+              #1811 (Merged, 강의계획서를 자동저장하는 기능의 추가.)
             </a>
           </li>
         </ul>
