@@ -1,4 +1,5 @@
 import { NextPage } from 'next';
+import { useEffect } from 'react';
 import styled, { css } from 'styled-components';
 
 import Layout from '../components/Layout';
@@ -40,6 +41,13 @@ const IntroSection = styled.div`
 `;
 
 const Page: NextPage = () => {
+  useEffect(() => {
+    location.href =
+      'https://dev-hsh.notion.site/cbad668b61524d2e911d539ebeaafc7f';
+  }, []);
+
+  return null;
+
   return (
     <Layout>
       <IntroSection>
